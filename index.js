@@ -55,6 +55,4 @@ app.get('/usuario/sorteado', (req, res) =>{
     res.json(usuarioSorteado);
 });
 
-app.listen(3000, () =>{
-    console.log('Servidor rodando em http://localhost:3000')
-});
+module.exports = app;
